@@ -104,42 +104,22 @@ function addIncomeField(amount = "", category = "salary", frequency = "month") {
                 <div class="form-group">
                     <label for="category">Category</label>
                     <select class="category"> 
-                        <option value="salary" ${
-                          frequency === "salary" ? "selected" : ""
-                        }>Salary</option>
-                        <option value="freelance" ${
-                          frequency === "freelance" ? "selected" : ""
-                        }>Freelance</option>
-                        <option value="business" ${
-                          frequency === "business" ? "selected" : ""
-                        }>Business</option>
-                        <option value="investment" ${
-                          frequency === "investment" ? "selected" : ""
-                        }>Investment </option>
-                        <option value="rental-income" ${
-                          frequency === "rental-income" ? "selected" : ""
-                        }>Rental Income</option>
-                        <option value="commission " ${
-                          frequency === "commission" ? "selected" : ""
-                        }>Commission</option>
-                        <option value="interest-income" ${
-                          frequency === "interest-income" ? "selected" : ""
-                        }>Interest Income</option>
+                        <option value="salary">Salary</option>
+                        <option value="freelance" >Freelance</option>
+                        <option value="business" >Business</option>
+                        <option value="investment">Investment </option>
+                        <option value="rental-income">Rental Income</option>
+                        <option value="commission ">Commission</option>
+                        <option value="interest-income">Interest Income</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label for="frequency">Income Frequency</label>
                     <select class="income-frequency">
-                        <option value="month" ${
-                          frequency === "month" ? "selected" : ""
-                        }>Per Month</option>
-                        <option value="week" ${
-                          frequency === "week" ? "selected" : ""
-                        }>Per Week</option>
-                        <option value="day" ${
-                          frequency === "day" ? "selected" : ""
-                        }>Per Day</option>
+                        <option value="month">Per Month</option>
+                        <option value="week">Per Week</option>
+                        <option value="day">Per Day</option>
                     </select>
                 </div>
             </div>
